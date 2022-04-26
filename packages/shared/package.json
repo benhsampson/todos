@@ -1,0 +1,12 @@
+{
+  "name": "@todos/shared",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "src",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

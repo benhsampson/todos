@@ -1,0 +1,18 @@
+{
+  "name": "@todos/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "turbo run lint",
+    "build": "turbo run build",
+    "deploy": "turbo run deploy",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "turbo": "^1.2.5",
+    "husky": "^7.0.0"
+  }
+}

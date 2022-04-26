@@ -15,5 +15,5 @@ Basic app for demonstrating various technologies.
 
 # Prerequisites
 
-NodeJS
-Yarn
+- NodeJS
+- Yarn

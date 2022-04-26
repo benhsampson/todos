@@ -1,0 +1,13 @@
+{
+  "baseBranch": "origin/main",
+  "pipeline": {
+    "lint": {},
+    "build": {
+      "dependsOn": ["^build", "lint"]
+    },
+    "deploy": {
+      "dependsOn": ["build"]
+    }
+  },
+  "globalDependencies": ["tsconfig.base.json"]
+}
