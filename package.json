@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "lint": "turbo run lint",
+    "format": "prettier -w .",
     "build": "turbo run build",
     "deploy": "turbo run deploy",
     "prepare": "husky install"

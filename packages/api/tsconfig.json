@@ -2,16 +2,10 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "dist"
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    ".turbo"
-  ],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", ".turbo"],
   "references": [
     {
       "path": "../shared"
