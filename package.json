@@ -2,13 +2,14 @@
   "name": "@todos/root",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "scripts": {
     "lint": "turbo run lint",
-    "format": "prettier -w .",
     "build": "turbo run build",
     "deploy": "turbo run deploy",
+    "format": "prettier -w .",
     "prepare": "husky install"
   },
   "devDependencies": {

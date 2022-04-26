@@ -5,9 +5,12 @@
     "build": {
       "dependsOn": ["^build", "lint"]
     },
+    "start": {
+      "dependsOn": ["build"]
+    },
     "deploy": {
       "dependsOn": ["build"]
     }
   },
-  "globalDependencies": ["tsconfig.base.json"]
+  "globalDependencies": ["$GITHUB_TOKEN", ".env", "tsconfig.base.json"]
 }
