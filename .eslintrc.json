@@ -3,12 +3,18 @@
     {
       "files": ["*.ts"],
       "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": ["packages/*/tsconfig.json", "apps/*/tsconfig.json"]
+      },
       "plugins": ["@typescript-eslint"],
       "extends": [
         "plugin:@typescript-eslint/recommended",
         "plugin:prettier/recommended",
         "prettier"
-      ]
+      ],
+      "rules": {
+        "prettier/prettier": "warn"
+      }
     }
   ]
 }
