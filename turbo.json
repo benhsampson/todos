@@ -3,13 +3,17 @@
   "pipeline": {
     "lint": {},
     "build": {
-      "dependsOn": ["^build", "lint"]
+      "dependsOn": ["^build"]
     },
     "start": {
       "dependsOn": ["build"]
     },
     "deploy": {
       "dependsOn": ["build"]
+    },
+    "dev": {
+      "dependsOn": ["build"],
+      "cache": false
     }
   },
   "globalDependencies": ["$GITHUB_TOKEN", ".env", "tsconfig.base.json"]

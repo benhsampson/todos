@@ -5,16 +5,17 @@
     "module": "CommonJS",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
+    "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
+    // "isolatedModules": true,
     "lib": ["ESNext"],
     "target": "ESNext",
-    "composite": true,
-    "incremental": true,
+    // "composite": true,
+    // "incremental": true,
     "paths": {
       "@todos/*": ["packages/*"]
     }

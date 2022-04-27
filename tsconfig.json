@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "disableSourceOfProjectReferenceRedirect": true
+  },
+  "references": [
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./packages/prisma"
+    }
+  ]
+}

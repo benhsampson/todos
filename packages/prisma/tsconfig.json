@@ -5,6 +5,5 @@
     "outDir": "dist"
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "dist", ".turbo"]
-  // "references": [{ "path": "../../packages/prisma" }]
+  "exclude": ["node_modules", ".turbo"]
 }

@@ -12,6 +12,10 @@ Basic app for demonstrating various technologies.
 - ESLint
 - Prettier
 - Husky
+- GraphQL
+- Prisma
+- Apollo Server
+- NextAuth.js
 
 # Prerequisites
 
